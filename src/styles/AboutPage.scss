@@ -1,0 +1,47 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 1440px;
+}
+
+.fuck {
+   background-color: blue;
+  &__lyrics {
+    font-size: 20px;
+  }
+  &__active {
+    &:hover {
+      content: '';
+      color: #fff;
+    }
+  }
+}
+ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: left;
+}
+
+li {
+  list-style: none;
+
+}
+.Router-link {
+  text-decoration: none;
+  color: blue;
+}
+.pageClick {
+  padding: 10px 5px;
+  border: 1px groove teal;
+  background-color: grey;
+  cursor: pointer;
+  &__link {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
