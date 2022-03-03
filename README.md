@@ -1,5 +1,3 @@
-# ulbitv
-
 ## Project setup
 ```
 npm install
